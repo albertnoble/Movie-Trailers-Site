@@ -7,7 +7,9 @@ class Movie():
       A class that contains the movie object information and funtions to
       retrive the information
     """
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self, movie_title, movie_storyline,
+                 poster_image, trailer_youtube
+                 ):
         """ Inits Movie with movie title, storyline, poster image, and trailer
 
             Args:
